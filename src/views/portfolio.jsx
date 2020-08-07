@@ -13,7 +13,7 @@ const portfolio = () => {
             <h2>Portfolio</h2>
           </section>
         </section>
-        {/* Here is where projects go */}
+        <Project />
       </div>
       <footer className="fixed-bottom">
         <p className="cprt">@ Copyright</p>

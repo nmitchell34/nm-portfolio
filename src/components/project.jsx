@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
-const project = () => {
+function project() {
   const [projects, setProjects] = useState({
     proj: [
       {
@@ -31,7 +31,8 @@ const project = () => {
         imgSRC: "../../public/Images/employeeTracker.gif",
         deployedHREF: "",
         appName: "Employee Tracker",
-        repoHREF: "https://github.com/nmitchell34/Bootcamp_HW12_EmployeeTracker",
+        repoHREF:
+          "https://github.com/nmitchell34/Bootcamp_HW12_EmployeeTracker",
       },
       {
         imgSRC: "../../public/Images/noteTakerImg.png",
@@ -44,24 +45,32 @@ const project = () => {
 
   return (
     <div>
-      <div className="thumbnail text-center">
-        <img
-          className="img-responsive"
-          src="./Images/EntertaiMeMain.png"
-          alt="Entertain me project"
-        />
-        <div className="caption">
-          <a href="https://mayastucky.github.io/gt-project-1/" target="_blank">
-            Entertain Me App
-          </a>
+      {this.projects.proj.map((proj) => (
+        <div className="thumbnail text-center">
+          <img
+            className="img-responsive"
+            src={proj.imgSRC}
+            alt="Entertain me project"
+          />
+          <div className="caption">
+            <a
+              href={proj.deployedHREF}
+              target="_blank"
+            >
+              {proj.appName}
+            </a>
+          </div>
+          <br />
+          <div className="caption caption2">
+            <a
+              href={proj.repoHREF}
+              target="_blank"
+            >
+              Repository
+            </a>
+          </div>
         </div>
-        <br />
-        <div className="caption caption2">
-          <a href="https://github.com/nmitchell34/gt-project-1" target="_blank">
-            Repository
-          </a>
-        </div>
-      </div>
+      ))}
     </div>
   );
 };
