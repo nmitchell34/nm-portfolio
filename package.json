@@ -1,5 +1,6 @@
 {
   "name": "nm-portfolio",
+  "homepage":"https://nmitchell34.github.io/nm-portfolio/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
