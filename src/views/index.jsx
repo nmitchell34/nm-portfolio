@@ -6,19 +6,19 @@ const index = () => {
       <Header />
       <br />
       <br />
-      <div class="container">
-        {/* <section class="row"> */}
-        <section class="col-sm-8 border">
-          <section class="row border-bottom">
+      <div className="container">
+        {/* <section className="row"> */}
+        <section className="col-sm-8 border">
+          <section className="row border-bottom">
             <h2>About Me</h2>
           </section>
-          <section class="row">
+          <section className="row">
             <br />
-            <section class="col-sm-4">
+            <section className="col-sm-4">
               <section className="row">
                 <img
                   src="./Images/IMG_7368[6565].jpeg"
-                  class="rounded float-left"
+                  className="rounded float-left"
                   width="100%"
                   // height="100%"
                 />
@@ -55,7 +55,7 @@ const index = () => {
         </section>
       </div>
       <footer>
-        <p class="cprt">@ Copyright</p>
+        <p className="cprt">@ Copyright</p>
       </footer>
     </div>
   );

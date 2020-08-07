@@ -9,9 +9,9 @@ function App() {
   return (
     <Router>
       <div>
-        <Route exact path="/" component={Index} />
-        <Route exact path="/contact" component={Contact} />
-        <Route exact path="/portfolio" component={Portfolio} />
+        <Route exact path="/nm-portfolio/" component={Index} />
+        <Route exact path="/nm-portfolio/contact" component={Contact} />
+        <Route exact path="/nm-portfolio/portfolio" component={Portfolio} />
       </div>
     </Router>
   );

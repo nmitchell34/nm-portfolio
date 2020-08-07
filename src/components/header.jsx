@@ -19,7 +19,7 @@ const header = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ml-auto float-right text-right pr-3">
             <li className="nav-item">
-              <a className="nav-link" href="./">
+              <a className="nav-link" href="/nm-portfolio/">
                 About{" "}
               </a>
             </li>
@@ -33,12 +33,12 @@ const header = () => {
               </a>
             </li>
             <li className="nav-item active">
-              <a className="nav-link" href="./portfolio">
+              <a className="nav-link" href="/nm-portfolio/portfolio">
                 Portfolio <span className="sr-only" />
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="./contact">
+              <a className="nav-link" href="/nm-portfolio/contact">
                 Contact
               </a>
             </li>
