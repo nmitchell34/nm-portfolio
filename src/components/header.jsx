@@ -2,11 +2,11 @@ import React from "react";
 
 const header = () => {
   return (
-    <nav class="navbar navbar-expand-sm navbar-light">
-      <div class="container">
-        <h1 class="navbar-brand">Nick Mitchell</h1>
+    <nav className="navbar navbar-expand-sm navbar-light">
+      <div className="container">
+        <h1 className="navbar-brand">Nick Mitchell</h1>
         <button
-          class="navbar-toggler my-2 my-lg-0"
+          className="navbar-toggler my-2 my-lg-0"
           type="button"
           data-toggle="collapse"
           data-target="#navbarNav"
@@ -14,33 +14,32 @@ const header = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon navbar-light bg-light"></span>
+          <span className="navbar-toggler-icon navbar-light bg-light"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto float-right text-right pr-3">
-            <li class="nav-item">
-              <a class="nav-link" href="./index.html">
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav ml-auto float-right text-right pr-3">
+            <li className="nav-item">
+              <a className="nav-link" href="./">
                 About{" "}
               </a>
             </li>
-            <li class="nav-item">
+            <li className="nav-item">
               <a
-                class="nav-link"
+                className="nav-link"
                 target="_blank"
                 href="./Files/Nicholas C Mitchell - BSMSE Georgia Tech 2020.pdf"
               >
-                Resume <span class="sr-only">(current)</span>
+                Resume <span className="sr-only">(current)</span>
               </a>
             </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="./portfolio.html">
-                Portfolio <span class="sr-only" />
-                (current)
+            <li className="nav-item active">
+              <a className="nav-link" href="./portfolio">
+                Portfolio <span className="sr-only" />
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./contact.html">
-                Contact{" "}
+            <li className="nav-item">
+              <a className="nav-link" href="./contact">
+                Contact
               </a>
             </li>
           </ul>
